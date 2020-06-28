@@ -1,0 +1,13 @@
+.header{
+    top: 0px;
+    background-color: aqua;
+    display: inline-flex;
+    flex-direction: row;
+}
+.headerElems{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding: 30px;
+    justify-items: center;
+}
