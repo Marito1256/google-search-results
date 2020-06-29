@@ -3,11 +3,34 @@
     background-color: aqua;
     display: inline-flex;
     flex-direction: row;
+    width: 100vw;
 }
 .headerElems{
     display: flex;
     flex-direction: row;
     float: left;
-    padding: 30px;
+    padding: 5px;
     justify-items: center;
+}
+.center{
+    display: flex;
+    width: 692px;
+    height: auto;
+}
+#sb{
+    display:flex; 
+    justify-self:center; 
+    width: 690px;
+    height: 44px;
+    background: #fff;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+.searchbar{
+    display: flex;
+    justify-items: center;
+    width: 582px;
+    height: 32px;
+    font: 16px arial,sans-serif;
+    border:none;
 }
